@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load i18n static %}
+{% static "" as baseUrl %}
+
+{% block title %}<title>Coffee Shop</title>{% endblock %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <h2>An Error Occurred</h2>
+
+            <!-- NOTE: don't use safe like this in real applications.  It is vulmerable
+                to XSS attacks.  The only reason we have done so here is to demonstrate
+                the vulnerability -->
+            <p>{{ error_msg | safe }}</p>
+
+            <p>Please go back and try again.</p>
+
+        </div> <!-- col-sm-12 -->
+
+    </div> <! -- row -->
+    
+</div> <! -- container -->
+{% endblock %}
+
+{% block endjs %}
+{% endblock %}
