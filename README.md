@@ -11,7 +11,7 @@ About this repo
 
 This repo is intended to accompany:
 
-- My upcoming Secure Web Application Development by Matthew Baker
+- Secure Web Application Development by Matthew Baker
 - Matthew Baker's web application security courses. 
 
 The repo contains two VMs for performing hands-on exercises.  It is not a real coffee shop and is not intended for any purpose other than using with the book or courses.
