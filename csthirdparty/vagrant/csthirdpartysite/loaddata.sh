@@ -1,3 +1,0 @@
-. /secrets/config.env
-cd /var/www/csthirdpartysite
-#python3 manage.py loaddata csthirdparty/fixtures/...
