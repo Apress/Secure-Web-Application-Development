@@ -202,7 +202,3 @@ If the VM was not destroyed, it will simply boot again.  If you previously destr
 
 You're Ready!
 -------------
-
-If you're doing one of the web app security courses, you now have eveything you need to start the course.
-
-If you're following the book, you are now ready to start the hands-on exercises.
